@@ -6,7 +6,6 @@ body {
 
 .robot-container {
   display: flex;
-  position: absolute;
   height: 100%;
   width: 100%;
 }
@@ -70,7 +69,7 @@ body {
 
 .robot-ear-left {
   position: relative;
-  left: 485px;
+  left: 455px;
   top: 350px;
   width: 0px;
   height: 0px;
@@ -97,7 +96,7 @@ body {
 
 .robot-ear-right {
   position: relative;
-  left: 890px;
+  left: 905px;
   top: 350px;
   width: 0px;
   height: 0px;
@@ -194,7 +193,7 @@ body {
   gap: 20px;
   position: relative;
   top: 125px;
-  left: 480px;
+  left: 620px;
   width: 200px;
   height: 100px;
   background: transparent;
@@ -202,28 +201,28 @@ body {
 }
 @keyframes hair-style {
   0% {
-    top: 0;
-    left: 0;
+    top: 100px;
+    left: 555px;
   }
 
   25% {
-    top: 0;
-    left: 170px;
+    top: 100px;
+    left: 360px;
   }
 
   50% {
-    top: 170px;
-    left: 170px;
+    top: 0px;
+    left: 360px;
   }
 
   75% {
-    top: 170px;
-    left: 0;
+    top: 0;
+    left: 555px;
   }
 
   100% {
-    top: 0;
-    left: 0;
+    top: 100px;
+    left: 555px;
   }
 }
 
@@ -260,10 +259,12 @@ body {
 @keyframes hair-one {
   from {
     transform: scale(0);
+    background-color: firebrick;
   }
 
   to {
     transform: scale(2);
+    background-color: green;
   }
 }
 
